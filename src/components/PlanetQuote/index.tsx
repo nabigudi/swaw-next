@@ -8,14 +8,14 @@ export const PlanetQuote = ({planetName}: PlanetQuoteProps) => {
     case 'Alderaan':
       return (
         <div className={styles.quote}>
-          <p><cite className={styles.planetQuote}>"The galaxy knows Alderaan as 'the planet of beauty.' Nature, poetry, philosophy, art, couture, cuisine—we freely share all with all."</cite></p>
+          <p><cite className={styles.planetQuote}>"The galaxy knows Alderaan as &apos;the planet of beauty&apos;. Nature, poetry, philosophy, art, couture, cuisine—we freely share all with all."</cite></p>
           <p className={styles.nameQuote}>― Bail Organa —</p>   
         </div>                                        
       );
     case 'Bespin':
       return (
         <div className={styles.quote}>
-          <p><cite className={styles.planetQuote}>"Bespin. It's pretty far, but I think we can make it."</cite></p>
+          <p><cite className={styles.planetQuote}>"Bespin. It&apos;s pretty far, but I think we can make it."</cite></p>
           <p className={styles.nameQuote}>― Captain Han Solo —</p>   
         </div>                                        
       );
@@ -44,14 +44,14 @@ export const PlanetQuote = ({planetName}: PlanetQuoteProps) => {
     case 'Hoth':
       return (
         <div className={styles.quote}>
-          <p><cite className={styles.planetQuote}>"There isn't enough life on this ice cube to fill a space cruiser!</cite></p>
+          <p><cite className={styles.planetQuote}>"There isn&apos;t enough life on this ice cube to fill a space cruiser!</cite></p>
           <p className={styles.nameQuote}>― Captain Han Solo —</p>   
         </div>                                        
       );
     case 'Kamino':
       return (
         <div className={styles.quote}>
-          <p><cite className={styles.planetQuote}>"Bespin. It's pretty far, but I think we can make it."</cite></p>
+          <p><cite className={styles.planetQuote}>"Bespin. It&apos;s pretty far, but I think we can make it."</cite></p>
           <p className={styles.nameQuote}>― Captain Han Solo —</p>   
         </div>                                        
       );
@@ -81,14 +81,14 @@ export const PlanetQuote = ({planetName}: PlanetQuoteProps) => {
         <div className={styles.quote}>
           <p><cite className={styles.planetQuote}>"Greetings, young Jedi. What brings you to our remote sanctuary?"
 "Unfortunately, the war."
-"There's no war here. Unless you brought it with you."</cite></p>
+"There&apos;s no war here. Unless you brought it with you."</cite></p>
           <p className={styles.nameQuote}>― Tion Medon and Obi-Wan Kenobi —</p>   
         </div>                                        
       );
     case 'Mustafar':
       return (
         <div className={styles.quote}>
-          <p><cite className={styles.planetQuote}>"I've only heard that name once. From Kanan. He said Mustafar is where Jedi go to die."</cite></p>
+          <p><cite className={styles.planetQuote}>"I&apos;ve only heard that name once. From Kanan. He said Mustafar is where Jedi go to die."</cite></p>
           <p className={styles.nameQuote}>― Hera Syndulla —</p>   
         </div>                                        
       );
@@ -124,14 +124,14 @@ export const PlanetQuote = ({planetName}: PlanetQuoteProps) => {
     case 'Stewjon':
       return (
         <div className={styles.quote}>
-          <p><cite className={styles.planetQuote}>"Well I can't say I really remember. I was very young when I left my homeworld."</cite></p>
+          <p><cite className={styles.planetQuote}>"Well I can&apos;t say I really remember. I was very young when I left my homeworld."</cite></p>
           <p className={styles.nameQuote}>― Obi-Wan Kenobi, to Anakin Skywalker —</p>   
         </div>                                        
       );
     case 'Eriadu':
       return (
         <div className={styles.quote}>
-          <p><cite className={styles.planetQuote}>"…Under Tarkin's rule, Eriadu finally achieved the celebrity it had been clamoring for. It became the rising star, planet other eager-to-be-exploited worlds began looking up to."</cite></p>
+          <p><cite className={styles.planetQuote}>"…Under Tarkin&apos;s rule, Eriadu finally achieved the celebrity it had been clamoring for. It became the rising star, planet other eager-to-be-exploited worlds began looking up to."</cite></p>
           <p className={styles.nameQuote}>― Berch Teller —</p>   
         </div>                                        
       );
@@ -152,15 +152,15 @@ export const PlanetQuote = ({planetName}: PlanetQuoteProps) => {
     case 'Nal Hutta':
       return (
         <div className={styles.quote}>
-          <p><cite className={styles.planetQuote}>"Nothing's free on Nal Hutta."</cite></p>
+          <p><cite className={styles.planetQuote}>"Nothing&apos;s free on Nal Hutta."</cite></p>
           <p className={styles.nameQuote}>― An Ithorian bartender to Anakin Skywalker —</p>   
         </div>                                        
       );
     case 'Dantooine':
       return (
         <div className={styles.quote}>
-          <p><cite className={styles.planetQuote}>"Dantooine? That's in the middle of nowhere."
-"That's the whole point. Where else could the rebels hide?"</cite></p>
+          <p><cite className={styles.planetQuote}>"Dantooine? That&apos;s in the middle of nowhere."
+"That&apos;s the whole point. Where else could the rebels hide?"</cite></p>
           <p className={styles.nameQuote}>― Thane Kyrell and an Imperial officer —</p>   
         </div>                                        
       );
@@ -252,14 +252,14 @@ export const PlanetQuote = ({planetName}: PlanetQuoteProps) => {
     case 'Glee Anselm':
       return (
         <div className={styles.quote}>
-          <p><cite className={styles.planetQuote}>"There's an ocean planet… home to Nautolans. Glee Anselm?"</cite></p>
+          <p><cite className={styles.planetQuote}>"There&apos;s an ocean planet… home to Nautolans. Glee Anselm?"</cite></p>
           <p className={styles.nameQuote}>― Mace Windu —</p>   
         </div>                                        
       );
     case 'Iridonia':
       return (
         <div className={styles.quote}>
-          <p><cite className={styles.planetQuote}>"I was under the impression that Darth Maul's home world was Iridonia."
+          <p><cite className={styles.planetQuote}>"I was under the impression that Darth Maul&apos;s home world was Iridonia."
 "Dathomir is the planet where Maul was raised. Iridonia is where the rest of the males of the species dwell."</cite></p>
           <p className={styles.nameQuote}>― Obi-Wan Kenobi and Mace Windu —</p>   
         </div>                                        
@@ -282,22 +282,22 @@ export const PlanetQuote = ({planetName}: PlanetQuoteProps) => {
       return (
         <div className={styles.quote}>
           <p><cite className={styles.planetQuote}>"Vice Chancellor, I imagine that fishing is a very popular pastime on your homeworld."
-"Champala's seas are not what they once were, but yes, of course."</cite></p>
+"Champala&apos;s seas are not what they once were, but yes, of course."</cite></p>
           <p className={styles.nameQuote}>― Orson Callan Krennic and Mas Amedda —</p>   
         </div>                                        
       );
     case 'Mirial':
       return (
         <div className={styles.quote}>
-          <p><cite className={styles.planetQuote}>"We're researching the effects…the fall of the Republic on planets like Utapau."
-"Or Mirial! You know, out-of-the-way places that were abandoned after all the fighting, and no one stayed behind to clean up the mess. We're going there next, but Utapau was closer, so we started here first."</cite></p>
+          <p><cite className={styles.planetQuote}>"We&apos;re researching the effects…the fall of the Republic on planets like Utapau."
+"Or Mirial! You know, out-of-the-way places that were abandoned after all the fighting, and no one stayed behind to clean up the mess. We&apos;re going there next, but Utapau was closer, so we started here first."</cite></p>
           <p className={styles.nameQuote}>― Karr Nuq Sin and Maize Raynshi —</p>   
         </div>                                        
       );
     case 'Concord Dawn':
       return (
         <div className={styles.quote}>
-          <p><cite className={styles.planetQuote}>"So, that's Concord Dawn. Sure looks like it's been through a war."</cite></p>
+          <p><cite className={styles.planetQuote}>"So, that&apos;s Concord Dawn. Sure looks like it&apos;s been through a war."</cite></p>
           <p className={styles.nameQuote}>― Hera Syndulla —</p>   
         </div>                                        
       );
@@ -311,7 +311,7 @@ export const PlanetQuote = ({planetName}: PlanetQuoteProps) => {
     case 'Tatooine':
       return (
         <div className={styles.quote}>
-          <p><cite className={styles.planetQuote}>"Well, if there's a bright center to the universe, you're on the planet that it's farthest from."</cite></p>
+          <p><cite className={styles.planetQuote}>"Well, if there&apos;s a bright center to the universe, you&apos;re on the planet that it&apos;s farthest from."</cite></p>
           <p className={styles.nameQuote}>― Luke Skywalker, to C-3PO —</p>   
         </div>                                        
       );
