@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  font-family: 'Acme', sans-serif;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: 2rem;
+  margin: 0;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 1px #000000;
+  text-align: center;
+}
+
+.arrow {
+  width: 30px;
+  height: 30px;
+  cursor: 'pointer';
+}
+
+.btnNext {
+  right: 15px;
+  position: absolute;
+  z-index: 2;
+  top: calc(50% - 15px);
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  &:hover{
+    border:none;
+    outline: none;
+  }
+  &:focus{
+    border:none;
+    outline: none;
+  }
+}
+
+.btnLeft {
+  left: 15px;
+  position: absolute;
+  z-index: 2;
+  top: calc(50% - 15px);
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  &:hover{
+    border:none;
+    outline: none;
+  }
+  &:focus{
+    border:none;
+    outline: none;
+  }
+}
+
+.button {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: .75rem;
+  letter-spacing: .25rem;
+  padding: .75rem 1rem;
+  background-color: transparent;
+  border: none;
+  border-left: 2px solid #ffbb00;
+  text-transform: uppercase;    
+  text-decoration: none;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 1px #000000;
+  align-self: flex-end;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 576px) {
+  .title {
+    font-size:  1rem;
+    margin-top: 1.5rem;
+  }
+};
+
+@media (max-width: 768px) {
+  .title {
+    font-size:  1.5rem;
+    padding: 0 2rem;
+  }
+};

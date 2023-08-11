@@ -1,0 +1,39 @@
+.container{
+  z-index: 1;
+}
+.bigBottomContainer{
+  position: absolute;
+  height: 25rem;
+  overflow: hidden;
+}
+.image {
+  animation: rotatePlanet 40s infinite linear;  
+  width: 20rem !important;
+}
+.bigBottom {
+  animation: rotatePlanet 100s infinite linear; 
+  width: 100vw;
+  height: auto;
+}
+
+@keyframes rotatePlanet{
+  0%{
+    transform:rotateZ(0);
+  }
+  100%{
+    transform:rotateZ(-360deg);
+  }
+}
+
+@media (max-width: 576px) {
+  .bigBottom {
+    width: 80vw;
+  }
+};
+
+@media (max-width: 768px) {
+  .bigBottom {
+    width: 80vw;
+    
+  }
+};
